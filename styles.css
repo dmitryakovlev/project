@@ -414,6 +414,18 @@ a:visited
     background-color:#22af8d;
     display: flex;
     border-radius: 10%;
+    -webkit-transition: all 0.5s linear;
+-moz-transition: all 0.5s linear;
+-ms-transition: all  0.5s linear;
+-o-transition: all  0.5s linear;
+transition: all  0.5s linear;
+    animation: pulse 1000ms ease-in-out infinite;
+}
+@keyframes pulse
+{
+    0% {transform: scale(1.0);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1.0);}
 }
 .wb_item > a::after
 {
