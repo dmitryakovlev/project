@@ -430,7 +430,7 @@ a:visited
 -ms-transition: all  0.5s linear;
 -o-transition: all  0.5s linear;
 transition: all  0.5s linear;
-    animation: pulse 1000ms ease-in-out infinite;
+  /*  animation: pulse 1000ms ease-in-out infinite; THIS ANIMATION IS IRRITATING*/
 }
 @keyframes pulse
 {
@@ -746,7 +746,7 @@ textarea:focus
     background-color: #465870;
 }
 
-button
+.button1
 {
     width: 82px;
     background-color: #22af8d;
@@ -765,13 +765,13 @@ button
     transition: transform 1s ease-in-out;
 }
 
-button:hover
+.button1:hover
 {
     background-color: #21997c;
     transform: scale(1.5) rotate(360deg);
 }
 
-button:focus
+.button1:focus
 {
     background-color: #21997c;
 }
