@@ -9,16 +9,13 @@
 
             podliczacz++;
             if (podliczacz % 3 == 0) {
-                x.style.animation = "slajd 5s ease-in-out 5s infinite";
                 x.style.backgroundImage = 'url(src/grafika.png)';
             }
             else if (podliczacz % 3 == 1) {
-                x.style.animation = "slajd 5s ease-in-out 5s infinite";
                 x.style.backgroundImage = "url(src/grafika2.png)";
             }
 
             else if (podliczacz % 3 == 2) {
-                x.style.animation = "slajd 5s ease-in-out 5s infinite";
                 x.style.backgroundImage = 'url(src/grafika3.png)';
 
             }
