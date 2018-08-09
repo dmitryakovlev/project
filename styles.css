@@ -1,4 +1,4 @@
-﻿body {
+body {
   background: #273343;
   margin: 0;
   color:white;
@@ -746,7 +746,7 @@ textarea:focus
     background-color: #465870;
 }
 
-button
+.button1
 {
     width: 82px;
     background-color: #22af8d;
@@ -765,13 +765,13 @@ button
     transition: transform 1s ease-in-out;
 }
 
-button:hover
+.button1:hover
 {
     background-color: #21997c;
     transform: scale(1.5) rotate(360deg);
 }
 
-button:focus
+.button1:focus
 {
     background-color: #21997c;
 }
@@ -916,4 +916,3 @@ footer - media queries
         padding-bottom: 1.5em;
     }
 }
-
